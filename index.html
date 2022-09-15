@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SignUp Page</title>
+</head>
+
+<body>
+    <div id="container">
+        <button type="button" class="btn" onclick="singUp()">Singup</button>
+        <button type="button" class="btn" onclick="loginFunc()">Login</button>
+        <div id="Wraper">
+            <form action="#" name="myform" onsubmit="return(validationForm());">
+                <h1>SignUp</h1>
+                <input type="text" name="username" class="fieldInput" id="username" placeholder="User Name...">
+                <div id="Error1" class="error"></div>
+                <input type="email" name="" class="fieldInput" id="email" placeholder="Email...">
+                <div id="Error2" class="error"></div>
+                <input type="password" name="" class="fieldInput" id="password" placeholder="Password...">
+                <div id="Error3" class="error"></div>
+                <input type="password" name="" class="fieldInput" id="confPass" placeholder="Confirm Password...">
+                <div id="Error4" class="error"></div>
+                <input type="text" name="" class="fieldInput" id="Address" placeholder="Address...">
+                <div id="Error5" class="error"></div>
+                <input type="date" name="" class="fieldInput" id="calender" placeholder="DOB..." width="40">
+                <div id="Error6" class="error"></div>
+                <label for="gender">Gender: </label>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male" value="male" class="fieldInput">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female" value="female" class="fieldInput">
+                <div id="Error10" class="error"></div>
+                <input type="text" name="" class="fieldInput" id="number" placeholder="Mobile Number">
+                <div id="Error8" class="error"></div>
+                <input type="text" name="" class="fieldInput" id="postalCode" placeholder="Postal Code">
+                <div id="Error9" class="error"></div>
+                <button type="submit" value="Singup">SignUp</button>
+            </form>
+        </div>
+        <div id="login">
+            <form action="#" name="login">
+                <h1>Login</h1>
+                <input type="text" name="username" class="fieldInput" id="loginUser" placeholder="User Name...">
+                <div id="Error1" class="error"></div>
+                <input type="password" name="" class="fieldInput" id="loginPass" placeholder="Password...">
+                <div id="Error3" class="error"></div>
+                <button type="submit" value="Singup" onclick="loginFunction()">Login</button>
+            </form>
+        </div>
+    </div>
+    <div id="dashboard">
+        <button id="dataDisplay" onclick="displayData()">ProfileView</button>
+        <div id="datShow">
+            <h3 id="userName">hassan</h3>
+            <h3 id="email">ali@gmail.com</h3>
+            <h3 id="Password">124</h3>
+            <h3 id="ConfirmPassword">123</h3>
+            <h3 id="adress">asdasd</h3>
+            <h3 id="dob">sdafsdaf</h3>
+            <h3 id="MobileNumber">342354</h3>
+            <h3 id="postalCode">23423</h3>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

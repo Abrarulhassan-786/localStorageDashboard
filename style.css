@@ -1,0 +1,116 @@
+form {
+    padding: 10px;
+    width: 100%;
+    max-width: 64em;
+    position: relative;
+    top: 30%;
+    left: 25%;
+    margin: -25px 0 0 -25px;
+}
+#dataDisplay{
+    width: 10%;
+}
+.btn{
+    width: 10%;
+}
+#login{
+    display: none;
+}
+#container{
+    background-color: yellow;
+    height: 50vh;
+    display: none;
+}
+#login{
+    padding: 30px;
+}
+#Wraper {
+    border: 1px solid red;
+    width: 40%;
+    position: absolute;
+    top: 8%;
+    left: 25%;
+    margin: -25px 0 0 -25px;
+    border-radius: 20px 0px 20px 0px;
+    background-color: #CDDCE8;
+    padding: 10px;
+    box-shadow: 4px 4px 4px lightslategray;
+    display: none;
+}
+h1{
+    margin-left: 20%;
+    color: black;
+}
+input {
+    display: block;
+    padding: 6px;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 9px;
+    border-radius: 4px;
+    width: 50%;
+    box-shadow: 2px 2px 3px #33A2CF;
+    margin-right: 20px;
+
+}
+
+input:focus {
+    outline: none;
+}
+#login{
+    display: none;
+}
+#calender {
+    width: 50%
+}
+#nameErr{
+    border: 1px solid red;
+    height: 3vh;
+}
+.error{
+    margin-left: 10px;
+    color: red;
+    font-weight: bold;
+}
+
+#male,
+#female {
+    display: inline-block;
+    width: 4%;
+}
+#datShow{
+    background-color:cadetblue;
+    width: 30%;
+    height: 70vh;
+}
+#datShow{
+    display: none;
+}
+label {
+    font-size: 16px;
+    padding: 10px;
+}
+#dashboard{
+    border: 1px solid red;
+    background-color: lightslategrey;
+    width: 100%;
+    height: 97vh;
+}
+button {
+    width: 50%;
+    height: auto;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+    border: 2px solid teal;
+    color: white;
+    box-shadow: 2px 3px 4px #33A2CF;
+    cursor: pointer;
+}
+
+
+
